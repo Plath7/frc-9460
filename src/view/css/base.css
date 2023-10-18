@@ -17,7 +17,7 @@ body{
     color: var(--cor04)!important ;
 }
 .card > img{
-    background-color:var(--cor01) ;
+    background-color:var(--cor01);
 }
 .card-text{
     text-align: center;
@@ -27,8 +27,17 @@ body{
 }
 .tudo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     margin-top: 2px;
-    
+    flex-wrap: wrap;
+
+}
+
+.carousel-inner{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px ;
 }
